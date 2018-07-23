@@ -1,5 +1,6 @@
 rename=function(x,y,z){
     names(x)[z]=y
     newnames=names(x)
-    head(x)
-}
+    newdata=x
+    }
+newdata=rename(x,y,z)
